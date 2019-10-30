@@ -35,7 +35,8 @@
 
 
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar">
 
         <a class="navbar-brand" href="">WiLearn</a>
 
@@ -64,20 +65,23 @@
 
       <!-- Title -->
 
+
+
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 animated bounceInUp">
           <h1 class="big-heading">Learn Japanese from day one.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
 
         <div class="col-lg-6">
-          <img class="title-image" src="images/iphone62.png" alt="iphone-mockup">
+          <img class="title-image" src="images/iphone62.png" alt="iphone-mockup" id="header-img">
         </div>
 
       </div>
 
     </div>
+    </header>
   </section>
 
 
@@ -109,7 +113,7 @@
 <h3 class="feature-title">Check out what people think.</h3>
       <div class="embed-responsive embed-responsive-16by9">
 
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hJuln3mcFFA" allowfullscreen></iframe>
+  <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/hJuln3mcFFA" allowfullscreen></iframe>
 </div>
     </div>
 </div>
@@ -233,6 +237,15 @@
     <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
     <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
 </div>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <div class="form-group" id="email">
+    <label for="exampleInputEmail1">Sign Up for Emails</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <button type="submit" class="btn btn-light">Submit</button>
+  </div>
+
+</form>
   </section>
 
 
